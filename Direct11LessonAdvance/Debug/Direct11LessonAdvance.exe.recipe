@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\code\C++\DirectX 11\Direct11LessonAdvance\Debug\Direct11LessonAdvance.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\code\C++\DirectX 11\Direct11LessonAdvance\Direct11LessonAdvance\HLSL\Basic_PS_2D.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\code\C++\DirectX 11\Direct11LessonAdvance\Direct11LessonAdvance\HLSL\Basic_PS_3D.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\code\C++\DirectX 11\Direct11LessonAdvance\Direct11LessonAdvance\HLSL\Basic_VS_2D.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\code\C++\DirectX 11\Direct11LessonAdvance\Direct11LessonAdvance\HLSL\Basic_VS_3D.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
