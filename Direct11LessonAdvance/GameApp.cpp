@@ -267,7 +267,7 @@ void GameApp::DrawScene()
 
 bool GameApp::InitGraphic()
 {
-	m_pGraphic = shared_ptr<Graphic>(new Graphic(m_pd3dImmediateContext, m_pd3dDevice));
+	m_pGraphic = make_shared<Graphic>(m_pd3dImmediateContext, m_pd3dDevice);
 	return true;
 }
 
@@ -325,7 +325,7 @@ shared_ptr<GameObject> GameApp::BuildGameObject(shared_ptr<Geometry::MeshData<Ve
 	wstring vShaderPath, wstring vShaderFunc, 
 	wstring pShaderPath,  wstring pShaderFunc, wstring TexturePath)
 {
-	shared_ptr<GameObject> pNewObject = shared_ptr<GameObject>(new GameObject(m_pGraphic));
+	shared_ptr<GameObject> pNewObject = make_shared<GameObject>(m_pGraphic);
 
 	ComPtr<ID3D11Buffer> pVertexBuffer;
 	ComPtr<ID3D11Buffer> pIndexBuffer;
